@@ -2,11 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jonathan Castillo - Portfolio</title>
   <link rel="stylesheet" href="assets/estilos.css">
+  <style>
+    /* Harvard Classic Style */
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #ffffff;
+      color: #000000;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0d3b66;
+      padding: 12px 24px;
+    }
+
+    header nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+
+    h3 {
+      font-size: 28px;
+      font-weight: bold;
+      border-bottom: 2px solid #0d3b66;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    img {
+      width: 260px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+
+    .about p {
+      font-size: 1.1em;
+      margin: 0;
+    }
+
+    .contact {
+      text-align: center;
+      margin-bottom: 60px;
+      font-size: 1em;
+      line-height: 1.8em;
+    }
+
+    .contact a {
+      color: #0d3b66;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .flex {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
 
 <body>
+  <!-- NAVIGATION BAR -->
   <header>
     <nav>
       <a href="index.html">Home</a>
@@ -17,7 +103,9 @@
 
   <section>
     <div class="flex">
-      <div><img src="foto perfil linkedin.jpg" alt="Jonathan Castillo Photo"></div>
+      <div>
+        <img src="foto perfil linkedin.jpg" alt="Jonathan Castillo Photo">
+      </div>
       <div class="about">
         <h3>About Me</h3>
         <p>Finance & Project Accountant | Budgeting, Forecasting & Cost Control Expert | Excel, Power BI, SQL, & ERP Systems | 8+ Years in Multinational Environments</p>
