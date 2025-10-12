@@ -1,0 +1,133 @@
+/* ===== General Style ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+section {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+/* ===== Header / Navigation ===== */
+header {
+    background: #2b6777;
+    text-align: center;
+    padding: 12px 0;
+}
+
+header a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Headings ===== */
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 3px solid #83a9ad;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+
+/* ===== About & Contact ===== */
+img {
+    width: 260px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about {
+    background-color: #f2f7f8;
+    padding: 24px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    flex: 1 1 100%;
+}
+
+.about p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 1em;
+    line-height: 1.8em;
+}
+
+.contact a {
+    color: #2b6777;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Lists & Links ===== */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-top: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #2b6777;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Projects Section ===== */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card {
+    width: 300px;
+    background: #f2f7f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 16px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project-card p {
+    margin: 8px 0 12px;
+}
